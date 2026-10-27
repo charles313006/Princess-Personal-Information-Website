@@ -1,1 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Princess V. Mijares | Personal Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+  <!-- Floating Butterflies & Sparkles Background -->
+  <div class="butterflies-bg" id="butterflyBg" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Princess <span>🦋</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#coffee">Coffee Menu</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero-content">
+      <div class="hero-badge">Student, open to learning</div>
+      <h1 class="hero-name">PRINCESS<br>MIJARES</h1>
+      <p class="hero-quote">“Believe in yourself, work hard, and never give up on your dreams.”</p>
+      <p class="hero-bio">
+        Hi, I’m Princess, a BSIT 1st Year student at Aces Polytechnic College. I enjoy building small websites with HTML, CSS, and JavaScript. I like solving problems and turning ideas into something people can use. This site collects my class work and what I am learning.
+      </p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn btn-primary">About Me</a>
+        <a href="#projects" class="btn btn-outline">My Projects</a>
+      </div>
+    </div>
+    
+    <div class="hero-avatar-wrapper">
+      <div class="avatar-glow-ring">
+        <!-- PROFILE PICTURE -->
+        <img src="picture.jpg" alt="Princess V. Mijares" class="avatar-img" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80'">
+      </div>
+    </div>
+  </section>
+
+  <!-- About, Goals, Hobbies Section -->
+  <section class="section" id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="grid-3">
+      <div class="glass-card">
+        <div class="card-icon">✨</div>
+        <h3>Personal Profile</h3>
+        <p>I am a dedicated Information Technology student passionate about web design, interactive software development, and continuous learning.</p>
+      </div>
+
+      <div class="glass-card">
+        <div class="card-icon">🎯</div>
+        <h3>Personal Goals</h3>
+        <ul>
+          <li>Master modern Frontend development & UI design.</li>
+          <li>Build functional web applications for practical use.</li>
+          <li>Graduate with high academic standing in BSIT.</li>
+          <li>Expand my programming knowledge into full-stack tech.</li>
+        </ul>
+      </div>
+
+      <div class="glass-card">
+        <div class="card-icon">🎨</div>
+        <h3>Hobbies & Interests</h3>
+        <div class="tags-container">
+          <span class="tag">Web Design</span>
+          <span class="tag">Coding</span>
+          <span class="tag">Coffee Brewing</span>
+          <span class="tag">UI Layouts</span>
+          <span class="tag">Reading</span>
+          <span class="tag">Music</span>
+          <span class="tag">Problem Solving</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- History of Education Section -->
+  <section class="section" id="education">
+    <h2 class="section-title">History of Education</h2>
+    <div class="timeline">
+      
+      <!-- College -->
+      <article class="timeline-item">
+        <div class="timeline-dot">🎓</div>
+        <div class="timeline-content glass-card">
+          <span class="timeline-date">2026 - Present (College)</span>
+          <h3>Bachelor of Science in Information Technology</h3>
+          <h4>Aces Polytechnic College</h4>
+          <p>Currently in 1st Year. Studying Introduction to Computing, Computer Programming 1, NSTP, Understanding the Self, and Physical Education.</p>
+        </div>
+      </article>
+
+      <!-- Senior High School -->
+      <article class="timeline-item">
+        <div class="timeline-dot">🏫</div>
+        <div class="timeline-content glass-card">
+          <span class="timeline-date">2024 - 2026 (Senior High School)</span>
+          <h3>TVL Track - Information and Communications Technology (ICT)</h3>
+          <h4>Tuganay National High School</h4>
+          <p>Graduated with Academic Honors. Specialized in basic computer programming, hardware troubleshooting, and technical concepts.</p>
+        </div>
+      </article>
+
+      <!-- Junior High School -->
+      <article class="timeline-item">
+        <div class="timeline-dot">📚</div>
+        <div class="timeline-content glass-card">
+          <span class="timeline-date">2020 - 2024 (Junior High School)</span>
+          <h3>Junior High School Education</h3>
+          <h4>Tuganay National High School</h4>
+          <p>Completed secondary education with active participation in school activities, group projects, and foundational academic subjects.</p>
+        </div>
+      </article>
+
+      <!-- Elementary -->
+      <article class="timeline-item">
+        <div class="timeline-dot">🎒</div>
+        <div class="timeline-content glass-card">
+          <span class="timeline-date">Elementary School</span>
+          <h3>Elementary Education</h3>
+          <h4>Elementary School</h4>
+          <p>Completed primary education, building a strong foundation in reading, mathematics, science, and foundational learning habits.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="grid-2">
+      <div class="glass-card">
+        <h3>Core Competencies</h3>
+        
+        <div class="skill-bar-item">
+          <div class="skill-info"><span>HTML5 & Web Structuring</span><span>90%</span></div>
+          <div class="bar-bg"><div class="bar-fill" style="width: 90%;"></div></div>
+        </div>
+
+        <div class="skill-bar-item">
+          <div class="skill-info"><span>CSS3 Layouts & Glassmorphism</span><span>85%</span></div>
+          <div class="bar-bg"><div class="bar-fill" style="width: 85%;"></div></div>
+        </div>
+
+        <div class="skill-bar-item">
+          <div class="skill-info"><span>JavaScript Programming</span><span>75%</span></div>
+          <div class="bar-bg"><div class="bar-fill" style="width: 75%;"></div></div>
+        </div>
+
+        <div class="skill-bar-item">
+          <div class="skill-info"><span>GitHub Pages Deployment</span><span>80%</span></div>
+          <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div>
+        </div>
+      </div>
+
+      <div class="glass-card">
+        <h3>Soft Skills & Strengths</h3>
+        <div class="skills-grid-badges">
+          <div class="badge-card">💡 Creative Problem Solving</div>
+          <div class="badge-card">⏱️ Time Management</div>
+          <div class="badge-card">🤝 Teamwork & Collaboration</div>
+          <div class="badge-card">💬 Clear Communication</div>
+          <div class="badge-card">🔍 Attention to Detail</div>
+          <div class="badge-card">⚡ Eager to Learn</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Personal Projects Section -->
+  <section class="section" id="projects">
+    <h2 class="section-title">Personal Projects</h2>
+    <div class="grid-3">
+      
+      <div class="glass-card project-card">
+        <div class="project-img-placeholder">🌸</div>
+        <h3>Princess Portfolio Site</h3>
+        <p>A comprehensive web project showcasing personal profile, schedule, skills, and interactive modules using HTML, CSS, and JS.</p>
+        <div class="tags-container">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">GitHub Pages</span>
+        </div>
+      </div>
+
+      <div class="glass-card project-card">
+        <div class="project-img-placeholder">☕</div>
+        <h3>Interactive Coffee Shop Menu</h3>
+        <p>An interactive digital menu allowing users to filter drink categories, view prices, and build an order list dynamically.</p>
+        <div class="tags-container">
+          <span class="tag">JavaScript</span>
+          <span class="tag">UI Design</span>
+        </div>
+      </div>
+
+      <div class="glass-card project-card">
+        <div class="project-img-placeholder">📅</div>
+        <h3>Student Class Timetable</h3>
+        <p>A dual-tab timetable displaying weekly schedule routines alongside room numbers and subject description details.</p>
+        <div class="tags-container">
+          <span class="tag">DOM Manipulation</span>
+          <span class="tag">Responsive Tables</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Class Schedule Section -->
+  <section class="section" id="schedule">
+    <h2 class="section-title">Class Schedule</h2>
+    <div class="schedule-container glass-card">
+      <div class="schedule-header">
+        <div>
+          <h3>Name: Princess V. Mijares</h3>
+          <p>Course and Set: Bachelor of Science in Information Technology</p>
+        </div>
+        <div class="tab-buttons">
+          <button class="tab-btn active" onclick="switchTab('weekly')">Weekly Schedule</button>
+          <button class="tab-btn" onclick="switchTab('details')">Subject Details</button>
+        </div>
+      </div>
+
+      <!-- Weekly Schedule View -->
+      <div id="weekly-view" class="tab-content active">
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>8:00-10:00 AM</td>
+                <td><span class="subject-tag">Introduction to Computing</span></td>
+                <td><span class="subject-tag">Introduction to Computing</span></td>
+                <td><span class="subject-tag pe">Physical Education</span></td>
+                <td><span class="no-class">No Class</span></td>
+                <td><span class="no-class">No Class</span></td>
+              </tr>
+              <tr>
+                <td>10:00 AM-12:00 PM</td>
+                <td><span class="subject-tag prog">Computer Programming 1</span></td>
+                <td><span class="subject-tag prog">Computer Programming 1</span></td>
+                <td><span class="subject-tag pe">Physical Education</span></td>
+                <td><span class="no-class">No Class</span></td>
+                <td><span class="no-class">No Class</span></td>
+              </tr>
+              <tr>
+                <td>3:00-5:00 PM</td>
+                <td><span class="subject-tag nstp">NSTP</span></td>
+                <td><span class="subject-tag nstp">NSTP</span></td>
+                <td><span class="subject-tag pe">Physical Education</span></td>
+                <td><span class="no-class">No Class</span></td>
+                <td><span class="no-class">No Class</span></td>
+              </tr>
+              <tr>
+                <td>5:30-7:30 PM</td>
+                <td><span class="subject-tag ge">Understanding the Self w/GAD</span></td>
+                <td><span class="subject-tag ge">Understanding the Self w/GAD</span></td>
+                <td><span class="subject-tag pe">Physical Education</span></td>
+                <td><span class="no-class">No Class</span></td>
+                <td><span class="no-class">No Class</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Subject Details View -->
+      <div id="details-view" class="tab-content">
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Subject</th>
+                <th>Description</th>
+                <th>Time</th>
+                <th>Room</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>IT101</strong></td>
+                <td>Introduction to Computing</td>
+                <td>Learn computer hardware, software, operating systems, and technology basics.</td>
+                <td>8:00-10:00 AM</td>
+                <td><span class="room-badge">FV-307</span></td>
+              </tr>
+              <tr>
+                <td><strong>IT102</strong></td>
+                <td>Computer Programming 1</td>
+                <td>Learn programming concepts and create simple computer programs.</td>
+                <td>10:00 AM-12:00 PM</td>
+                <td><span class="room-badge">FV-307</span></td>
+              </tr>
+              <tr>
+                <td><strong>NSTP 1</strong></td>
+                <td>National Service Training Program</td>
+                <td>Develop civic awareness, patriotism, and community service.</td>
+                <td>3:00-5:00 PM</td>
+                <td><span class="room-badge">FV-303</span></td>
+              </tr>
+              <tr>
+                <td><strong>GE 3</strong></td>
+                <td>Understanding the Self w/GAD</td>
+                <td>Understand personal identity and promote gender equality.</td>
+                <td>5:30-7:30 PM</td>
+                <td><span class="room-badge">FV-206</span></td>
+              </tr>
+              <tr>
+                <td><strong>PE 1</strong></td>
+                <td>Physical Education</td>
+                <td>Promote fitness and a healthy lifestyle through physical activities.</td>
+                <td>8:00 AM-12:00 PM</td>
+                <td><span class="room-badge">Dance Room</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Coffee Shop Menu Section -->
+  <section class="section" id="coffee">
+    <h2 class="section-title">Coffee Shop Menu</h2>
+    <div class="coffee-wrapper">
+      
+      <div class="filter-buttons">
+        <button class="filter-btn active" onclick="filterCoffee('all')">All Drinks</button>
+        <button class="filter-btn" onclick="filterCoffee('hot')">Hot Coffee</button>
+        <button class="filter-btn" onclick="filterCoffee('iced')">Iced Specialty</button>
+        <button class="filter-btn" onclick="filterCoffee('non-coffee')">Non-Coffee</button>
+      </div>
+
+      <div class="grid-3">
+        
+        <div class="glass-card coffee-card" data-category="hot">
+          <div class="coffee-icon">☕</div>
+          <h3>Caramel Macchiato</h3>
+          <p>Fresh espresso with steamed milk and rich vanilla topped with caramel drizzle.</p>
+          <div class="coffee-price-row">
+            <span class="price">₱145.00</span>
+            <button class="btn-sm" onclick="addToOrder('Caramel Macchiato', 145)">Add to Order</button>
+          </div>
+        </div>
+
+        <div class="glass-card coffee-card" data-category="iced">
+          <div class="coffee-icon">🧊</div>
+          <h3>Iced Spanish Latte</h3>
+          <p>Espresso blended with condensed milk and chilled fresh milk over ice cubes.</p>
+          <div class="coffee-price-row">
+            <span class="price">₱150.00</span>
+            <button class="btn-sm" onclick="addToOrder('Iced Spanish Latte', 150)">Add to Order</button>
+          </div>
+        </div>
+
+        <div class="glass-card coffee-card" data-category="hot">
+          <div class="coffee-icon">🍵</div>
+          <h3>Matcha Oat Latte</h3>
+          <p>Premium Uji ceremonial grade matcha whisked with creamy steamed oat milk.</p>
+          <div class="coffee-price-row">
+            <span class="price">₱160.00</span>
+            <button class="btn-sm" onclick="addToOrder('Matcha Oat Latte', 160)">Add to Order</button>
+          </div>
+        </div>
+
+        <div class="glass-card coffee-card" data-category="iced">
+          <div class="coffee-icon">🧋</div>
+          <h3>Iced White Mocha</h3>
+          <p>Signature espresso poured over white chocolate sauce, ice, and whipped cream.</p>
+          <div class="coffee-price-row">
+            <span class="price">₱155.00</span>
+            <button class="btn-sm" onclick="addToOrder('Iced White Mocha', 155)">Add to Order</button>
+          </div>
+        </div>
+
+        <div class="glass-card coffee-card" data-category="non-coffee">
+          <div class="coffee-icon">🍓</div>
+          <h3>Strawberry Milk Cloud</h3>
+          <p>Housemade strawberry puree layered with cold milk and fluffy milk foam.</p>
+          <div class="coffee-price-row">
+            <span class="price">₱140.00</span>
+            <button class="btn-sm" onclick="addToOrder('Strawberry Milk Cloud', 140)">Add to Order</button>
+          </div>
+        </div>
+
+        <div class="glass-card coffee-card" data-category="non-coffee">
+          <div class="coffee-icon">🍫</div>
+          <h3>Dark Chocolate Cream</h3>
+          <p>Rich dark cocoa melted with milk and topped with dark chocolate shavings.</p>
+          <div class="coffee-price-row">
+            <span class="price">₱135.00</span>
+            <button class="btn-sm" onclick="addToOrder('Dark Chocolate Cream', 135)">Add to Order</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Interactive Order Summary Bar -->
+      <div class="order-summary-card glass-card">
+        <h3>🛒 Order Summary</h3>
+        <ul id="order-list" class="order-list">
+          <li class="empty-msg">No items added yet. Click "Add to Order" above!</li>
+        </ul>
+        <div class="order-total">
+          <span>Total Amount:</span>
+          <span id="order-total-price">₱0.00</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Achievements and Awards Section with Pictures -->
+  <section class="section" id="achievements">
+    <h2 class="section-title">Achievements & Awards</h2>
+    <div class="grid-2">
+      
+      <!-- Achievement Card 1 -->
+      <div class="glass-card achievement-card">
+        <div>
+          <div class="achievement-header">
+            <div class="achievement-badge">🏆</div>
+            <div>
+              <h3>Academic Honor Roll</h3>
+              <span class="achievement-date">Carrol A. Baltimore  Christian  Academy Inc.</span>
+            </div>
+          </div>
+          <p style="margin-top: 1rem;">Awarded Academic Honors for demonstrating outstanding academic performance during my elementary days.</p>
+        </div>
+        
+        <div class="achievement-img-wrapper">
+          <img src="2nd honor.jpg" alt="Academic Honor Award Certificate" class="achievement-img" onerror="this.src='https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=600&q=80'">
+          <span class="img-caption">Honor Roll Award Ceremony</span>
+        </div>
+      </div>
+
+      <!-- Achievement Card 2 -->
+      <div class="glass-card achievement-card">
+        <div>
+          <div class="achievement-header">
+            <div class="achievement-badge">🥇</div>
+            <div>
+              <h3>Ms. United Nation 2017</h3>
+              <span class="achievement-date">Coronation Day 2017</span>
+            </div>
+          </div>
+          <p style="margin-top: 1rem;">Winning Ms. United Nations 2017 was a memorable achievement that showcased my confidence, grace, and dedication.</p>
+        </div>
+        
+        <div class="achievement-img-wrapper">
+          <img src="ms award 2.jpg" alt="Ms. United Nations 2017" class="achievement-img" onerror="this.src='https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&q=80'">
+          <span class="img-caption">Campus Tech Fair Award Presentation</span>
+        </div>
+      </div>
+
+      <!-- Achievement Card 3 -->
+      <div class="glass-card achievement-card">
+        <div>
+          <div class="achievement-header">
+            <div class="achievement-badge">📜</div>
+            <div>
+              <h3>Elementary awards</h3>
+              <span class="achievement-date">These achievements reflect my commitment to learning, perseverance, and continuous personal growth.</span>
+            </div>
+          </div>
+          <p style="margin-top: 1rem;">Successfully completed my elementary year.</p>
+        </div>
+        
+        <div class="achievement-img-wrapper">
+          <img src="elementary awards.jpg" alt="Web Development Certificate" class="achievement-img" onerror="this.src='https://images.unsplash.com/photo-1589330694653-aded6fac051d?auto=format&fit=crop&w=600&q=80'">
+          <span class="img-caption">Official Awards & Certificates</span>
+        </div>
+      </div>
+
+      <!-- Achievement Card 4 -->
+      <div class="glass-card achievement-card">
+        <div>
+          <div class="achievement-header">
+            <div class="achievement-badge">🌟</div>
+            <div>
+              <h3>Student Leadership Award</h3>
+              <span class="achievement-date">Youth Student Council</span>
+            </div>
+          </div>
+          <p style="margin-top: 1rem;">Commended for exemplary dedication, teamwork, and active participation in student activities.</p>
+        </div>
+        
+        <div class="achievement-img-wrapper">
+          <img src="highschool honor.jpg" alt="Student Leadership Certificate" class="achievement-img" onerror="this.src='https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=600&q=80'">
+          <span class="img-caption">Highschool Honor Recognition</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Princess V. Mijares. Built with ❤️, HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
